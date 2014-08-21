@@ -1,162 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
+    <title>Exploratory computing with python by satra</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Exploratory computing with Python by Mark Bakker</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>Exploratory computing with Python</h1>
-        <h2>Mark Bakker</h2>
-        <h2>Delft University of Technology</h2>
-        <h2></h2>
-        <a href="https://github.com/mbakker7/exploratory_computing_with_python" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/satra/shbt-datavis">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/satra/shbt-datavis/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/satra/shbt-datavis/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h2>
-<a name="python-for-exploratory-computing" class="anchor" href="#python-for-exploratory-computing"><span class="octicon octicon-link"></span></a>Python for Exploratory Computing</h2>
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Exploratory computing with python</h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/satra">satra</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>
+<a name="python-for-exploratory-computing-data-analysis-and-visualization" class="anchor" href="#python-for-exploratory-computing-data-analysis-and-visualization"><span class="octicon octicon-link"></span></a>Python for Exploratory Computing: Data Analysis and Visualization</h2>
 
 <p>Lots of books are written on scientific computing, but very few deal with the much more common <em>exploratory computing</em> 
 (a term coined by Fernando Perez), which represents daily tasks of many scientists and engineers that try to solve problems
-but are not computer scientists.
-This set of  Notebooks is written for scientists and engineers who want to use Python programming
-for exploratory computing, scripting, data analysis, and visualization. 
-Python makes
-many of these programming tasks quick and easy and, probably most importantly, fun.</p>
+but are not computer scientists. This set of  Notebooks is written for scientists and engineers who want to use Python programming for exploratory computing, scripting, data analysis, and visualization. Python makes many of these programming tasks quick and easy and, probably most importantly, fun.</p>
 
-<p>No prior knowledge of computer programming is assumed. 
-Each Notebook covers a specific topic and includes a number of exercises. 
-The exercises should take less than 4 hours to complete for each Notebook.
-Answers to the exercises are given at the end of the Notebook.
-There are two versions of each Notebook: one with and one without output cells. The Notebooks without the output cells
-are intended for people wanting to learn Python. Running the output
-cells is part of the learning process. For example, Notebook 1 with empty output cells looks
-<a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook1/py_exploratory_comp_1.ipynb">as follows</a>.
-All Notebooks and accompanying data files may be downloaded
-by clicking on the 'Download .zip file' button to the right.
-Notebooks with output cells cells have the addition _sol and can be 
-viewed by clicking on the links to the Notebook Viewer below.</p>
+<p>No prior knowledge of computer programming is assumed. </p>
 
-<p>
-Notebooks can be run after you install Python and the appropriate packages.
-The easiest way to do this is to install an installer that includes Python and a set of the most popular packages.
-Get the installer for Python 2.X. The Notebooks listed here have not been ported to Python 3.X.
-The three main options are
-<a href="https://store.enthought.com">Canopy Express</a> (Mac, Windows, Linux),
-<a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> (Mac, Windows, Linux),
-and <a href="https://code.google.com/p/pythonxy/wiki/Welcome">PythonXY</a> (Windows).
-After installing Canopy Express, simply start Canopy Express and click on File the Open and select the Notebook you want to start working on.
-For all other installers (but it also works for Canopy Express) IPython Notebooks can be started by opening a terminal, then use <code>cd</code> to change to the directory
-where the Notebook is stored and finally type <code>ipython notebook</code> and after you hit enter IPython will start Notebooks in you webbrowser.
-</p>
+<p>Each Notebook covers a specific topic and includes a number of exercises. The exercises should take less than 4 hours to complete for each Notebook. Download the Notebooks and accompanying data files from the GitHub repositories. These Notebooks contain empty output cells. Running the output cells is part of learning Python. Notebooks with output cells have the addition <code>_sol</code> and can be viewed by clicking on the links to the Notebook Viewer below.</p>
 
-<h2>Available Notebooks for Viewing:</h2>
+<p>The following Notebooks are available: </p>
 
 <h3>
 <a name="python-basics" class="anchor" href="#python-basics"><span class="octicon octicon-link"></span></a>Python Basics</h3>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook1/py_exploratory_comp_1_sol.ipynb">Notebook 1</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook1/py_exploratory_comp_1_sol.ipynb">Notebook 1</a>: 
 Basics and Plotting
-</p>
+(version with empty output cells is 
+<a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook1/py_exploratory_comp_1.ipynb">here</a>)</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook2/py_exploratory_comp_2_sol.ipynb">Notebook 2</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook2/py_exploratory_comp_2_sol.ipynb">Notebook 2</a>: 
 Arrays and basic If statements
-</p>
+(version with empty output cells is 
+<a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook2/py_exploratory_comp_2.ipynb">here</a>)</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook3/py_exploratory_comp_3_sol.ipynb">Notebook 3</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook3/py_exploratory_comp_3_sol.ipynb">Notebook 3</a>: 
 Loops and If/Else statements
-</p>
+(version with empty output cells is 
+<a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook3/py_exploratory_comp_3.ipynb">here</a>)</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook4/py_exploratory_comp_4_sol.ipynb">Notebook 4</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook4/py_exploratory_comp_4_sol.ipynb">Notebook 4</a>: 
 Functions
-</p>
-
-<h3>
-<a name="applications-to-water-management" class="anchor" href="#applications-to-water-management"><span class="octicon octicon-link"></span></a>Applications to Water Management</h3>
-
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_wm1/py_exp_comp_wm1_sol.ipynb">Notebook WM1</a>: 
-Time Series Data and Pandas</p>
-
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_wm2/py_exp_comp_wm2_sol.ipynb">Notebook WM2</a>: 
-Manning's Equation and Emptying Reservoir</p>
-
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_wm3/py_exp_comp_wm3_sol.ipynb">Notebook WM3</a>: 
-Water Distribution Systems</p>
+(version with empty output cells is 
+<a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook4/py_exploratory_comp_4.ipynb">here</a>)</p>
 
 <h3>
 <a name="applications-to-probability-and-statistics" class="anchor" href="#applications-to-probability-and-statistics"><span class="octicon octicon-link"></span></a>Applications to Probability and Statistics</h3>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_s1/py_exp_comp_s1_sol.ipynb">Notebook S1</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_s1/py_exp_comp_s1_sol.ipynb">Notebook S1</a>: 
 Discrete Random Variables</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_s2/py_exp_comp_s2_sol.ipynb">Notebook S2</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_s2/py_exp_comp_s2_sol.ipynb">Notebook S2</a>: 
 Continuous Random Variables</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_s3/py_exp_comp_s3_sol.ipynb">Notebook S3</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_s3/py_exp_comp_s3_sol.ipynb">Notebook S3</a>: 
 Distribution of the Mean, Hypothesis Tests, and the Central Limit Theorem</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_s4/py_exp_comp_s4_sol.ipynb">Notebook S4</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_s4/py_exp_comp_s4_sol.ipynb">Notebook S4</a>: 
 Linear regression and curve fitting</p>
+
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_wm1/py_exp_comp_wm1_sol.ipynb">Notebook WM1</a>: 
+Time Series Data and Pandas</p>
 
 <h3>
 <a name="some-more-advanced-python-topics" class="anchor" href="#some-more-advanced-python-topics"><span class="octicon octicon-link"></span></a>Some More Advanced Python Topics</h3>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_adv1/py_exp_comp_adv1_sol.ipynb">Notebook ADV1</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_adv1/py_exp_comp_adv1_sol.ipynb">Notebook ADV1</a>: 
 Finding the Zero of a Function</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_adv2/py_exp_comp_adv2_sol.ipynb">Notebook ADV2</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_adv2/py_exp_comp_adv2_sol.ipynb">Notebook ADV2</a>: 
 Systems of linear equations</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_adv3/py_exp_comp_adv3_sol.ipynb">Notebook ADV3</a>: 
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_adv3/py_exp_comp_adv3_sol.ipynb">Notebook ADV3</a>: 
 Object oriented programming</p>
 
-<p><a href="http://nbviewer.ipython.org/github/mbakker7/exploratory_computing_with_python/blob/master/notebook_adv4/py_exp_comp_adv4_sol.ipynb">Notebook ADV4
-</a>: Interactive Graphics with Matplotlib Widgets</p>
+<p><a href="http://nbviewer.ipython.org/github/satra/shbt-datavis/blob/master/notebook_adv4/py_exp_comp_adv4_sol.ipynb">Notebook ADV4
+</a>: 
+Interactive Graphics with Matplotlib Widgets</p>
+      </section>
 
-
-<HR>
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-
-        </section>
-        
-
-        <aside id="sidebar">
-          <a href="https://github.com/mbakker7/exploratory_computing_with_python/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/mbakker7/exploratory_computing_with_python/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/mbakker7/exploratory_computing_with_python"></a> is maintained by <a href="https://github.com/mbakker7">mbakker7</a>.</p>
-
-          <p><IMG SRC="https://raw.githubusercontent.com/mbakker7/exploratory_computing_with_python/master/tudelft_logo.png" WIDTH=200 padding-left=64 > </p>    
-          
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
     </div>
-
-  
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
