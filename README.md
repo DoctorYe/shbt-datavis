@@ -2,6 +2,8 @@
 
 Forked from [Mark Bakker's original notebooks](https://github.com/mbakker7/exploratory_computing_with_python) and tuned for the SHBT class.
 
+To launch the tutorial click here: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/satra/shbt-datavis)
+
 Please visit the webpage of this project <a href="http://satra.cogitatum.org/shbt-datavis/">here</a>.
 
 INSTALLATION
