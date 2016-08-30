@@ -4,7 +4,7 @@ MAINTAINER Satrajit Ghosh <satrajit.ghosh@gmail.com>
 
 USER root
 RUN apt-get update
-RUN apt-get install -y xvfb-run && apt-get clean
+RUN apt-get install -y xvfb && apt-get clean
 
 USER main
 RUN conda update -y conda
