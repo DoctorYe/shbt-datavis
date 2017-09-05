@@ -1,4 +1,4 @@
-FROM andrewosh/binder-base
+FROM continuumio/miniconda
 
 MAINTAINER Satrajit Ghosh <satrajit.ghosh@gmail.com>
 
