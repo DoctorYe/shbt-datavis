@@ -8,3 +8,8 @@ ADD install-pkg.R install-pkg.R
 RUN R CMD BATCH install-pkg.R
 
 ENV SHELL /bin/bash
+
+COPY . ${HOME}
+USER root
+RUN chown -R ${NB_USER}:${NB_USER} ${HOME}
+USER ${NB_USER}
