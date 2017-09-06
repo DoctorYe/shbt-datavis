@@ -11,5 +11,5 @@ ENV SHELL /bin/bash
 
 COPY . ${HOME}
 USER root
-RUN chown -R ${NB_USER}:${NB_USER} ${HOME}
+RUN chown -R ${NB_USER}:${NB_GID} ${HOME}
 USER ${NB_USER}
