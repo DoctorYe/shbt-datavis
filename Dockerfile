@@ -1,9 +1,8 @@
-FROM jupyter/scipy-notebook:8ccdfc1da8d5
+FROM jupyter/datascience-notebook:8ccdfc1da8d5
 
 MAINTAINER Satrajit Ghosh <satrajit.ghosh@gmail.com>
 
-RUN conda install -y pip pandas statsmodels scikit-learn mpld3 seaborn bokeh
-RUN conda install -c r -y r-essentials rpy2
+RUN conda install -y mpld3
 ADD install-pkg.R install-pkg.R
 RUN R CMD BATCH install-pkg.R
 
