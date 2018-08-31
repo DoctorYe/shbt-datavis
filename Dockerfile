@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:786611348de1
+FROM jupyter/scipy-notebook:8ccdfc1da8d5
 
 MAINTAINER Satrajit Ghosh <satrajit.ghosh@gmail.com>
 
